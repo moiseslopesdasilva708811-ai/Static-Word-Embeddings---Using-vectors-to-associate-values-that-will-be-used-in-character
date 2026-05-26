@@ -16,4 +16,5 @@
 - [x] Perplexidade - Número efetivo de escolhas(probabilidade de geração de palavras)
 - [x] Perplexidade - Tabela, qual modelo com mais confiança das respostas
 - [x] BLEU - Bilingual evaluation understudy (comparação por unidades)
-
+- [x] ROUGE
+- [x] Fidelidade - FAITHFULNESS
