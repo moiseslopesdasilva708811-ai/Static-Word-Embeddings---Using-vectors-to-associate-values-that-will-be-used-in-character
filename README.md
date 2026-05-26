@@ -8,4 +8,9 @@
 
 <p>Personalizar o modelo nessa atividade</p>
 <p>fazer pergunta para cada tipo de modelo</p>
-https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>&style=<STYLE>&logo=<LOGO>
+### Funcionalizades
+
+- [x] ...
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
+
