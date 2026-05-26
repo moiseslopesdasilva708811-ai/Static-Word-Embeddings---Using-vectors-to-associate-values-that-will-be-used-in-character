@@ -1,0 +1,34 @@
+# Ambiente Virtual
+.venv-1/
+venv/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Arquivos de Dados e PDFs (Pesados/Locais)
+*.pdf
+20260042690.pdf
+*.jsonl
+dataset_causal.jsonl
+dataset_seq2seq.jsonl
+dataset.jsonl
+
+# Resultados, Gráficos e Tabelas Geradas
+*.png
+*.csv
+avaliacao_metricas.png
+resultados_gerados.csv
+
+# Checkpoints pesados do treinamento (Pastas de modelos)
+results/
+checkpoint-*/
+lora_finetuned_model/
+distilgpt2_tokenizer/
+
+# Configurações do VS Code (Opcional, tire o '#' se quiser ocultar)
+#.vscode/
