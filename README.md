@@ -12,7 +12,8 @@
 
 - [x] Comparações justas
 - [x] Decisões objetivas
-- [ ] Classificação
-- [ ] Perplexidade - Número efetivo de escolhas(probabilidade de geração de palavras)
-- [ ] Perplexidade - Tabela, qual modelo com mais confiança das respostas
-- [ ] BLEU - Bilingual evaluation understudy (comparação por unidades)
+- [x] Classificação
+- [x] Perplexidade - Número efetivo de escolhas(probabilidade de geração de palavras)
+- [x] Perplexidade - Tabela, qual modelo com mais confiança das respostas
+- [x] BLEU - Bilingual evaluation understudy (comparação por unidades)
+
