@@ -10,7 +10,7 @@
 <p>fazer pergunta para cada tipo de modelo</p>
 ### Funcionalizades
 
-- [x] ...
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
-
+- [x] Comparações justas
+- [x] Decisões objetivas
+- [ ] Classificação
+- [ ] Perplexidade - Número efetivo de escolhas
