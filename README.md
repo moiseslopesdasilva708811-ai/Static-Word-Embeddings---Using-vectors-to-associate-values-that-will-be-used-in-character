@@ -8,7 +8,7 @@
 
 <p>Personalizar o modelo nessa atividade</p>
 <p>fazer pergunta para cada tipo de modelo</p>
-### Funcionalizades
+###
 
 - [x] Comparações justas
 - [x] Decisões objetivas
