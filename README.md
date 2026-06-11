@@ -23,48 +23,61 @@ Este projeto tem como objetivo realizar o treinamento, ajuste fino (Fine-Tuning)
 ![Referencial Teórico](images/Rerencia.png)
 
 ## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```text
-/
-├── dataset/
-│   └── dataset_gerado.jsonl      # Primeira Extração de dados do dataset
-│   └── dataset_treino.jsonl      # Dataset de treinamento em formato JSONL
+C:.
+│   .gitignore
+│   README.md
+│   requirements.txt
 │
-├── images/
-│   └── grafico_bart_tiny.png      # Gráfico de Convergência do modelo Bart-Tiny
-│   └── grafico_Flat_T5_Small.png      # Gráfico de Convergência do modelo Flat-T5-Small
-│   └── grafico_gpt_neo.png      # Gráfico de Convergência do modelo GPT-Neo-125M
-│   └── grafico_Qwen.png      # Gráfico de Convergência do modelo Qwen2-0.5B
-├── train/
-│   ├── modelo_final_lora/        # Adaptadores LoRA treinados (Qwen2-0.5B)
-│   │   ├── adapter_config.json
-│   │   └── adapter_model.safetensors
-│   │
-│   ├── modelo_final/             # Adaptadores LoRA treinados (GPT-Neo-125M)
-│   │   ├── adapter_config.json
-│   │   └── adapter_model.safetensors
-│   │
-│   ├── lora_tiny_bart_final/     # Adaptadores LoRA treinados (BART)
-│   │   ├── adapter_config.json
-│   │   └── adapter_model.safetensors
-│   │
-│   └── lora_seq2seq_model_1/     # Modelo FLAN-T5-small ajustado
-│       ├── adapter_config.json
-│       ├── adapter_model.safetensors
-│       ├── tokenizer.json
-│       └── tokenizer_config.json
+├───api
+│       main.py
 │
-├── static/
-│   └── index.html                # Interface Web (Front-End)
+├───chroma_db
+│   │   chroma.sqlite3
+│   │
+│   └───2ba4a2c2-ed4e-4199-8335-eac837d36c91
+│           data_level0.bin
+│           header.bin
+│           length.bin
+│           link_lists.bin
 │
-├── api                       # API FastAPI (Servidor principal)
-│   └── main.py   # Arquivo para integração da API com o servidor Frontend
-├── notebooks                      # Notebooks usados para o treinamento dos modelos selecionados para teste
-│   └── 01_rag.ipynb   # Notebook de ingestão e vetorização
-│   └── 02_lora.ipynb   # Notebook de Fine-Tuning com LoRA
-│   └── 03_avaliacao_modelo_finetuned.ipynb   # Benchmark e Avalição dos modelos
-├── requirements.txt              # Dependências do projeto
-└── README.md                     # Documentação
+├───dataset
+│       dataset_gerado.jsonl
+│       dataset_gerado_curado.jsonl
+│
+├───images
+│       Diagrama_de_sequência_da_Aplicação.png
+│       fluxograma_vertical.png
+│       grafico_bart_tiny.png
+│       grafico_Flan_T5_Small.png
+│       grafico_gpt_neo.png
+│       grafico_Qwen.png
+│       Gráfico_Radar.png
+│       Referencia.png
+│
+├───notebooks
+│       01_rag.ipynb
+│       02_lora.ipynb
+│       03_avaliacao_modelo_finetuned.ipynb
+│
+└───static
+        index.html
+```
+
+### Descrição das Pastas
+
+| Pasta        | Descrição                                                                                                        |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| `api/`       | Implementação da API FastAPI responsável por receber as perguntas e retornar as respostas geradas pelos modelos. |
+| `chroma_db/` | Banco vetorial ChromaDB utilizado pelo sistema RAG para recuperação de contexto.                                 |
+| `dataset/`   | Conjunto de dados utilizado para treinamento e ajuste fino dos modelos de linguagem.                             |
+| `images/`    | Diagramas, fluxogramas e gráficos gerados durante os experimentos e avaliações dos modelos.                      |
+| `notebooks/` | Notebooks contendo os experimentos de RAG, Fine-Tuning com LoRA e avaliação dos modelos treinados.               |
+| `static/`    | Interface Web da aplicação.                                                                                      |
+
+```
 ```
 
 ---
