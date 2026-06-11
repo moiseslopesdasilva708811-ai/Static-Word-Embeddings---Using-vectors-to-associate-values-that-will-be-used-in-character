@@ -105,7 +105,8 @@ C:.
 
 ### Análise Crítica do Melhor Modelo
 
-> O modelo Qwen2-0.5B, embora mais leve, demonstrou maior fidelidade aos conceitos de Psicologia Educacional após o ajuste LoRA, enquanto o GPT-Neo apresentou maior alucinação em contextos específicos. Mais para baixo neste README.md detalho melhor as avaliações dos modelos.
+> Melhor qualitativamente: Qwen2-0.5B
+> Melhor quantitativamente: Flan-T5-Small
 ## Demo do Projeto
 A próxima demonstração designa a funcionalidade a qual a aplicação conseguiu desenvolver no modelo Qwen2-0.5B, sem nenhuma alucinação, tudo com base no que estava documentado
 no PDF disponível na pasta ./docs/
