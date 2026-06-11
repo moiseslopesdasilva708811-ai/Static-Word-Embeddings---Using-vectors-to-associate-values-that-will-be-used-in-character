@@ -1,13 +1,22 @@
 # Projeto de Fine-Tuning e Avaliação de Modelos LLM com LoRA especializado em Psicologia Educacional
 
 <p align="center">
-  <a href="#-objetivos"><img src="https://img.shields.io/badge/Objetivos-blue?style=flat-square"></a>
-  <a href="#-estrutura-do-projeto"><img src="https://img.shields.io/badge/Estrutura-blue?style=flat-square"></a>
-  <a href="#-como-rodar"><img src="https://img.shields.io/badge/Setup-blue?style=flat-square"></a>
-  <a href="#-benchmarking--resultados"><img src="https://img.shields.io/badge/Benchmarks-blue?style=flat-square"></a>
-  <a href="#-autor"><img src="https://img.shields.io/badge/Sobre_o_Autor-blue?style=flat-square"></a>
+  <a href="#-objetivos">
+    <img src="https://img.shields.io/badge/🎯_Objetivos-ffffff?style=for-the-badge&logoColor=000000&labelColor=2b2b2b&color=2b2b2b" alt="Objetivos">
+  </a>
+  <a href="#-estrutura-do-projeto">
+    <img src="https://img.shields.io/badge/📂_Estrutura-ffffff?style=for-the-badge&logoColor=000000&labelColor=2b2b2b&color=2b2b2b" alt="Estrutura">
+  </a>
+  <a href="#-como-rodar">
+    <img src="https://img.shields.io/badge/🚀_Setup-ffffff?style=for-the-badge&logoColor=000000&labelColor=2b2b2b&color=2b2b2b" alt="Setup">
+  </a>
+  <a href="#-benchmarking--resultados">
+    <img src="https://img.shields.io/badge/📊_Benchmarks-ffffff?style=for-the-badge&logoColor=000000&labelColor=2b2b2b&color=2b2b2b" alt="Benchmarks">
+  </a>
+  <a href="#-autor">
+    <img src="https://img.shields.io/badge/👤_Autor-ffffff?style=for-the-badge&logoColor=000000&labelColor=2b2b2b&color=2b2b2b" alt="Autor">
+  </a>
 </p>
-
 
 > [!IMPORTANT]
 > Este projeto tem como objetivo realizar o treinamento, ajuste fino (Fine-Tuning) e avaliação de modelos de linguagem utilizando a técnica **LoRA (Low-Rank Adaptation)**, permitindo adaptar modelos pré-treinados para tarefas específicas de forma eficiente. Neste contexto, este trabalho explora o ciclo de vida completo de um sistema de
