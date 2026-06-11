@@ -1,8 +1,8 @@
 # Projeto de Fine-Tuning e Avaliação de Modelos LLM com LoRA especializado em Psicologia Educacional
 
 <p align="center" position="fixed">
-  <a href="#objetivos">
-    <img src="https://img.shields.io/badge/_Objetivos-2B2B2B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Objetivos">
+  <a href="#objetivos"><img src="https://img.shields.io/badge/_Objetivos-2B2B2B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Objetivos">
+  <a href="#instalacao"><img src="https://img.shields.io/badge/_Analise-2B2B2B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Objetivos">
   </a>
   <a href="#estrutura">
     <img src="https://img.shields.io/badge/_Estrutura-2B2B2B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Estrutura">
@@ -54,7 +54,8 @@ de pesos, permitindo que modelos de linguagem ajustem seu comportamento ao domí
 ## Material usado para treinamento do projeto
 ![Referencial Teórico](images/Rerencia.png)
 
-## Estrutura do Projeto
+
+<a name="estrutura"></a>
 ## 📂 Estrutura do Projeto
 
 ```text
@@ -205,7 +206,7 @@ Um passo importante para um projeto envolvendo um chat IA inteligente é conecta
 O conjunto de treinamento encontra-se em:
 
 ```bash
-dataset/dataset_gerado.jsonl
+dataset/dataset_gerado_curado.jsonl
 ```
 
 Formato esperado:
@@ -461,6 +462,7 @@ devem utilizar o Flan-T5-Small como principal referência experimental.
 Em síntese, os resultados demonstram que arquiteturas menores, porém instruídas e especializadas, podem superar modelos maiores quando avaliadas em tarefas específicas de geração textual.
 ---
 
+<a href="#instalacao">
 ## 🚀 Instalação
 
 ### 1. Clonar o repositório
