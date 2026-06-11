@@ -462,7 +462,7 @@ devem utilizar o Flan-T5-Small como principal referência experimental.
 Em síntese, os resultados demonstram que arquiteturas menores, porém instruídas e especializadas, podem superar modelos maiores quando avaliadas em tarefas específicas de geração textual.
 ---
 
-<a name="instalação"></a>
+<a name="instalacao"></a>
 ## 🚀 Instalação
 
 ### 1. Clonar o repositório
