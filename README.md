@@ -7,7 +7,10 @@
 
 > [!NOTE]
 > Ao final deste README, você estará apto a clonar, configurar e rodar todo o sistema. Gratidão por seu interesse neste projeto!
-> 
+
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Framework](https://img.shields.io/badge/FastAPI-Funcional-blue)
 ---
 
 ### Tecnologias e Ferramentas
