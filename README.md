@@ -5,7 +5,7 @@
 > [!TIP]
 > **Precisa de ajuda com o código?** Acesse a pasta `./notebooks/` para encontrar um guia modular e detalhado sobre todo o fluxo de implementação deste projeto.
 
-> [!NOTE]
+> [!Observação]
 > Ao final deste README, você estará apto a clonar, configurar e rodar todo o sistema. Gratidão por seu interesse neste projeto!
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
@@ -99,8 +99,10 @@ C:.
             tokenizer_config.json
             ...
 ```
-<div align="center">
 ### Descrição das Pastas
+
+<div align="center">
+
 
 | Pasta        | Descrição                                                                                                        |
 | ------------ | ---------------------------------------------------------------------------------------------------------------- |
