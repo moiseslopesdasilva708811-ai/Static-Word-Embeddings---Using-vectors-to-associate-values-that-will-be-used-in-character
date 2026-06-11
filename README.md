@@ -1,6 +1,6 @@
 # Projeto de Fine-Tuning e Avaliação de Modelos LLM com LoRA especializado em Psicologia Educacional
 
-Este projeto tem como objetivo realizar o treinamento, ajuste fino (Fine-Tuning) e avaliação de modelos de linguagem utilizando a técnica **LoRA (Low-Rank Adaptation)**, permitindo adaptar modelos pré-treinados para tarefas específicas de forma eficiente. Em qualquer dúvida sobre procedimentos de códigos utilizados, deixei aqui presente na pasta ./notebooks/ todo o processo que utilizei para deixar os códigos modulares e limpos explicados para uma melhor compreensão.
+> Este projeto tem como objetivo realizar o treinamento, ajuste fino (Fine-Tuning) e avaliação de modelos de linguagem utilizando a técnica **LoRA (Low-Rank Adaptation)**, permitindo adaptar modelos pré-treinados para tarefas específicas de forma eficiente. Em qualquer dúvida sobre procedimentos de códigos utilizados, deixei aqui presente na pasta ./notebooks/ todo o processo que utilizei para deixar os códigos modulares e limpos explicados para uma melhor compreensão. Ao decorrer dessa leitura, você será capaz de instalar e rodar o projeto clonando esse repositório. Desde já, gratidão por destinar o seu tempo a esse projeto.
 
 ---
 
