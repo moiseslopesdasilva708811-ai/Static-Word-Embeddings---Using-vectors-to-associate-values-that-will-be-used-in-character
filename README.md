@@ -1,6 +1,6 @@
 # Projeto de Fine-Tuning e Avaliação de Modelos LLM com LoRA especializado em Psicologia Educacional
 
-<p align="center" position="fixed">
+<p align="center" style="position: -webkit-sticky; position: sticky; top: 0; background: #000; padding: 10px 0; border-bottom: 2px solid #333; z-index: 1000;">
   <a href="#objetivos"><img src="https://img.shields.io/badge/_Objetivos-2B2B2B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Objetivos">
   <a href="#instalacao"><img src="https://img.shields.io/badge/_Instalação-2B2B2B?style=for-the-badge&logoColor=white&labelColor=000000" alt="Objetivos">
   </a>
