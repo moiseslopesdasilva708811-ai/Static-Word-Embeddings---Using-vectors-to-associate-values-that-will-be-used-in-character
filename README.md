@@ -62,8 +62,33 @@ C:.
 │       02_lora.ipynb
 │       03_avaliacao_modelo_finetuned.ipynb
 │
-└───static
-        index.html
+├───static
+│       index.html
+│
+└───train
+    ├───lora_seq2seq_model_1
+    │       adapter_config.json
+    │       adapter_model.safetensors
+    │       tokenizer_config.json
+    │       ...
+    │
+    ├───lora_tiny_bart_final
+    │       adapter_config.json
+    │       adapter_model.safetensors
+    │       tokenizer_config.json
+    │       ...
+    │
+    ├───modelo_final
+    │       config.json
+    │       model.safetensors
+    │       tokenizer.json
+    │       ...
+    │
+    └───modelo_final_lora
+            adapter_config.json
+            adapter_model.safetensors
+            tokenizer_config.json
+            ...
 ```
 
 ### Descrição das Pastas
@@ -76,6 +101,7 @@ C:.
 | `images/`    | Diagramas, fluxogramas e gráficos gerados durante os experimentos e avaliações dos modelos.                      |
 | `notebooks/` | Notebooks contendo os experimentos de RAG, Fine-Tuning com LoRA e avaliação dos modelos treinados.               |
 | `static/`    | Interface Web da aplicação.                                                                                      |
+| `train/`    | Modelos treinados e seus formatos .JSONL.                                                                         |
 
 ```
 ```
