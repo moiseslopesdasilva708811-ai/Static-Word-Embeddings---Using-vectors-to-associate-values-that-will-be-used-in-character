@@ -1,4 +1,14 @@
 # Projeto de Fine-Tuning e Avaliação de Modelos LLM com LoRA especializado em Psicologia Educacional
+
+<p align="center">
+  <a href="#-objetivos"><img src="https://img.shields.io/badge/Objetivos-blue?style=flat-square"></a>
+  <a href="#-estrutura-do-projeto"><img src="https://img.shields.io/badge/Estrutura-blue?style=flat-square"></a>
+  <a href="#-como-rodar"><img src="https://img.shields.io/badge/Setup-blue?style=flat-square"></a>
+  <a href="#-benchmarking--resultados"><img src="https://img.shields.io/badge/Benchmarks-blue?style=flat-square"></a>
+  <a href="#-autor"><img src="https://img.shields.io/badge/Sobre_o_Autor-blue?style=flat-square"></a>
+</p>
+
+
 > [!IMPORTANT]
 > Este projeto tem como objetivo realizar o treinamento, ajuste fino (Fine-Tuning) e avaliação de modelos de linguagem utilizando a técnica **LoRA (Low-Rank Adaptation)**, permitindo adaptar modelos pré-treinados para tarefas específicas de forma eficiente. Neste contexto, este trabalho explora o ciclo de vida completo de um sistema de
 RAG integrado ao ajuste fino eficiente via Low-Rank Adaptation (LoRA). A proposta visa ir além da arquitetura de busca semântica tradicional através da especialização
