@@ -185,7 +185,7 @@ C:.
 
 <a name="demo"></a>
 
-## Demo do Projeto
+## Demo do Projeto - Versão 1.0   -Beta(Em início de produção, usada para teste inicial)
 A próxima demonstração designa a funcionalidade a qual a aplicação conseguiu desenvolver no modelo Qwen2-0.5B, sem nenhuma alucinação, tudo com base no que estava documentado
 no PDF disponível na pasta ./docs/
 ![Demo](./video%20Qwen%20model%20final.gif)
@@ -197,6 +197,10 @@ Mais abaixo, está presente o teste da aplicação agora empregado aos modelos B
 Um passo importante para um projeto envolvendo um chat IA inteligente é conectar API para que haja a comunicação na arquitetura cliente servidor, com isso, trago a demonstração da API funcionando mais abaixo.
 
 ![Demo](./FASTAPI%20funcionando.gif)
+
+## VERSÃO FINAL (2.0)  - Melhoria da Experiência do usuário
+![Interface Final](https://imgur.com/a/bfwnmnk)
+
 
 ## Gráficos de Convergência do treinamento dos modelos
 
