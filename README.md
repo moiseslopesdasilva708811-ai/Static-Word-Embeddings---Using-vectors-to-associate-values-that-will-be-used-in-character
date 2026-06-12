@@ -20,13 +20,13 @@
 </p>
     
 <div align="center">
-
-## Acesse a aplicação desenvolvida no botão abaixo
-
-<a href="https://huggingface.co/spaces/josemoiseslsilva/agente-psicologia" target="_blank">
-  <img src="https://img.shields.io/badge/CLIQUE%20AQUI%20PARA%20TESTAR%20O%20SISTEMA-success?style=for-the-badge&logo=googlechrome" alt="Demo">
-</a>
-
+  <h3 style="color: #4A90E2;"> Experimente o Agente Especialista</h3>
+  <p>Interaja com o sistema de IA treinado em Psicologia Educacional em tempo real:</p>
+  
+  <a href="https://huggingface.co/spaces/josemoiseslsilva/agente-psicologia" target="_blank">
+    <img src="https://img.shields.io/badge/DEMONSTRAÇÃO_ONLINE_AGORA-007BFF?style=for-the-badge&logo=huggingface&logoColor=white&link=https://huggingface.co/spaces/josemoiseslsilva/agente-psicologia" alt="Acessar Sistema">
+  </a>
+  <p><i>Acesse o link acima para interagir diretamente com a API e os modelos configurados.</i></p>
 </div>
 
 
