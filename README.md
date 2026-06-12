@@ -199,7 +199,7 @@ Um passo importante para um projeto envolvendo um chat IA inteligente é conecta
 ![Demo](./FASTAPI%20funcionando.gif)
 
 ## VERSÃO FINAL (2.0)  - Melhoria da Experiência do usuário
-![Interface Final](https://imgur.com/a/bfwnmnk)
+<img src="https://i.imgur.com/RBsMzXA.png" width="500">
 
 
 ## Gráficos de Convergência do treinamento dos modelos
