@@ -201,6 +201,7 @@ Um passo importante para um projeto envolvendo um chat IA inteligente é conecta
 ## VERSÃO FINAL (2.0)  - Melhoria da Experiência do usuário
 <img src="https://i.imgur.com/RBsMzXA.png" width="1000">
 
+![Demo](./Demo%20Celular%20aplicação.gif)
 
 ## Gráficos de Convergência do treinamento dos modelos
 
